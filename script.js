@@ -81,7 +81,7 @@ document.getElementById("python")?.addEventListener("click", function () {
   });
   document.getElementById("dcdvhdl")?.addEventListener("click", function () {
     localStorage.setItem("selectedSubject", "DCDVHDL");
-    alert("as of now for this subject resources not availble. we will add soon   ");
+    alert("as of now for this subject resources not availble. we will add soon !  ");
     //  window.location.href = "../Resources.html";
   });
   //ec end
@@ -248,7 +248,7 @@ document.getElementById("python")?.addEventListener("click", function () {
         { id: "msem",  name: "QP",   file: "Learnify_C21_nov_2024_.NET_question_papers.pdf", downloadName: "Learnify_sem_question_paper.pdf" },
         // Chapter pdf's
         { id: "cmid1", name: "MID-1 Notes", file: "Learnify_OS_5unit.pdf", downloadName: "Learnify_net_mid1_1&2.pdf" },
-        { id: "cmid2", name: "MID-2 Notes", file: "Learnify_OS_5unit.pdf", downloadName: "Learnify_net_mid2_3&4.pdf" },
+        { id: "cmid2", name: "MID-2 Notes", file: "Learnify_net_unit_3rd&4rth.pdf", downloadName: "Learnify_net_unit_3rd&4rth.pdf" },
         { id: "csem",  name: "SEM Notes",   file: "Learnify_Net_sem_units.pdf", downloadName: "Learnify_Net_sem_units.pdf" },
         { id: "view3",  name: "SEM Notes",   file: "Learnify_Net_sem_units.pdf", downloadName: "Learnify_Net_sem_units.pdf" },
         // Youtube links :
@@ -299,7 +299,7 @@ document.getElementById("python")?.addEventListener("click", function () {
          // Chapter pdf's
          { id: "cmid1", name: "MID-1 Notes", file: "Learnify_OS_5unit.pdf", downloadName: "Learnify_net_mid1_u1&2.pdf" },
          { id: "cmid2", name: "MID-2 Notes", file: "Learnify_WD_3rd&4rth.pdf", downloadName: "Learnify_WD_3rd&4rth.pdf" },
-         { id: "csem",  name: "SEM Notes",   file: "Learnify_WD_5&6th_units.pdf", downloadName: "Learnify_WD_5&6th_units.pdf" },
+         { id: "csem",  name: "SEM Notes",   file: "Learnify_WD_5&6th_Units.pdf", downloadName: "Learnify_WD_sem_u5&6.pdf" },
          // youtube links:
          {id:"yt-mid1link", name:"mid2-link",link:"https://youtu.be/lGKGDxwvrEQ?si=-dE4_UwnK-MPZI6C"},
          {id:"yt-mid2link", name:"mid2-link",link:"https://youtu.be/hxbWGFI4xI4?si=bk94E3y_vuaay0ze"},
@@ -476,31 +476,31 @@ document.getElementById("python")?.addEventListener("click", function () {
       const v1= document.getElementById("v1");
       const v2= document.getElementById("v2");
    
-  if (cmid2) {
-    if (cmid2) {
-      // Example: Mark the button as not available
-      cmid2.innerText = "Not Available";
-      cmid2.style.pointerEvents = "none";
-      cmid2.style.backgroundColor = "#ccc"; // greyed out
-      cmid2.style.color = "#666";
-      cmid2.title = "This Chapter PDF is not available";
-      v1.innerText = "Not Available";
-      v1.style.pointerEvents = "none";
-      v1.style.fontSize = "12px";
-      v1.style.backgroundColor = "#ccc"; // greyed out
-      v1.style.color = "#666";
-      v1.title = "This Chapter PDF is not available";
-      v2.innerText = "Not Available";
-      v2.style.pointerEvents = "none";
-      v2.style.backgroundColor = "#ccc"; // greyed out
-      v2.style.color = "#666";
-      v2.title = "This Chapter PDF is not available";
-      v2.style.fontSize = "12px"; 
+  // if (cmid2) {
+  //   if (cmid2) {
+  //     // Example: Mark the button as not available
+  //     cmid2.innerText = "Not Available";
+  //     cmid2.style.pointerEvents = "none";
+  //     cmid2.style.backgroundColor = "#ccc"; // greyed out
+  //     cmid2.style.color = "#666";
+  //     cmid2.title = "This Chapter PDF is not available";
+  //     v1.innerText = "Not Available";
+  //     v1.style.pointerEvents = "none";
+  //     v1.style.fontSize = "12px";
+  //     v1.style.backgroundColor = "#ccc"; // greyed out
+  //     v1.style.color = "#666";
+  //     v1.title = "This Chapter PDF is not available";
+  //     v2.innerText = "Not Available";
+  //     v2.style.pointerEvents = "none";
+  //     v2.style.backgroundColor = "#ccc"; // greyed out
+  //     v2.style.color = "#666";
+  //     v2.title = "This Chapter PDF is not available";
+  //     v2.style.fontSize = "12px"; 
 
 
 
-    }
-  }
+  //   }
+  // }
     }
     if(subject=="MATHS"){
       document.getElementById("Projects").innerHTML="Open Books";
